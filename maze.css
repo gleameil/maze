@@ -1,0 +1,41 @@
+html {
+  background-color: black;
+}
+
+#mazeContainer {
+  width: 98vw;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.piece {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.obstructed {
+  background-color: black;
+}
+
+.goal {
+  background-color: gold;
+}
+
+#player {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
